@@ -1,11 +1,15 @@
 import React from 'react'
 import styles from './styles.module.scss';
+interface CardProps {
+  title: string;
+  content: string | number;
+}
 
-function Card() {
+const Card: React.FC<CardProps> = ({ title, content }) => {
   return (
     <div className={styles.Card}>
-      <p>Total de Casos:</p>
-      <h3>15815191</h3>
+      <p>{title}:</p>
+      <h3>{content}</h3>
     </div>
   )
 }
