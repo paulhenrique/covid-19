@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './components/Card';
+import Footer from './components/Footer';
 import Header from './components/Header';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
             [1, 2, 3, 4, 5].map(e => (<Card />))
           }
         </div>
+        <Footer />
       </div>
     </div>
   );

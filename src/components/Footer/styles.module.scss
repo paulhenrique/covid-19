@@ -1,0 +1,17 @@
+.Footer {
+  text-align: center;
+  font-size: 14px;
+  color: #545454;
+  background: url('../../assets/images/footer-bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transform: translateY(40px);
+
+  p {
+    transform: translateY(40px);
+  }
+}
