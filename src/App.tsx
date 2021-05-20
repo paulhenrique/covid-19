@@ -7,9 +7,11 @@ function App() {
     <div className="App">
       <div className="container">
         <Header />
-        {
-          [1, 2, 3, 4, 5].map(e => (<Card />))
-        }
+        <div className="containerCards">
+          {
+            [1, 2, 3, 4, 5].map(e => (<Card />))
+          }
+        </div>
       </div>
     </div>
   );

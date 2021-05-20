@@ -12,5 +12,12 @@ body {
   .container {
     max-width: 305px;
     margin: auto;
+
+    .containerCards {
+      margin-top: 63px;
+      display: flex;
+      flex-direction: column;
+      gap: 31px;
+    }
   }
 }
