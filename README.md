@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> Monitor de casos de covid-19 desenvolvido durante o Bootcamp SPTech de Front-End da Digita Innovation One. Construído com ReactJS, Sass, Axios e publicado na Vercel.
+> Monitor de casos de covid-19 desenvolvido durante o Bootcamp SPTech de Front-End da Digital Innovation One. Construído com ReactJS, Sass, Axios e publicado na Vercel.
 
 ## Install
 
