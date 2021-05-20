@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Covid-19 Monitor</h1>
+      <div className="container">
+        <Header />
+      </div>
     </div>
   );
 }

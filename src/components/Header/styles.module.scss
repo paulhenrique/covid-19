@@ -1,0 +1,17 @@
+.Header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 5rem;
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  p {
+    margin-top: 5px;
+    color: #CDCDCD;
+  }
+
+}
